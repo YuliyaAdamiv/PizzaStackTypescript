@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import  {MenuList} from '../menu/MenuList';
+import  {MenuList} from './MenuList';
 
 export default {
   title: 'Menu/MenuList',
