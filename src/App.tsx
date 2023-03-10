@@ -1,9 +1,18 @@
-
 import './App.css';
+import { Footer } from './common/componets/footer/Footer';
+import { Header } from './common/componets/header/Header';
+import { MenuList } from './common/componets/menu/menu-list/MenuList';
+import pizzaMenu from './mocks/pizza.json'
 
 function App() {
   return (
-    <h1 className="font-bold text-3xl text-red-500">🍕 Pizza Stack</h1>
+    <div>
+      <Header/>
+      <div className="mx-12 mb-24">
+          <MenuList items={pizzaMenu}/>
+      </div>
+      <Footer/>
+    </div>
   );
 }
 

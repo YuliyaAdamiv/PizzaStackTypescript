@@ -1,5 +1,5 @@
 export const Footer=()=>{
-    return <div className="bg-gray-900 pt-8 px-12 mb-12">
+    return <div className="bg-gray-900 pt-8 px-12 ">
        <div>
        <div className="mb-4">
             <span className="uppercase fond-bold text-sm text-zinc-500">Контакти</span>
